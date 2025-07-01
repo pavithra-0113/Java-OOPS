@@ -18,6 +18,38 @@ public class ArrayDemo {
     	for(int n:xyz) {
     		System.out.print(n+" ");
     	}
+    	System.out.println();
+    	
+    	
+    	// default values
+    	
+    	int arr[]=new int[10];
+    	System.out.println();
+    	System.out.println("----------");
+    	
+    	for(int ar:arr) {
+    		System.out.print(ar+" ");
+    	}
+    	 
+    	char ch[]=new char[8];
+    	String str[]=new String[11];
+    	boolean check[]=new boolean[3];
+    	
+    	for(char ch1:ch) {
+    		System.out.print(ch1+" ");
+    	}
+    	System.out.println();
+    	System.out.println("-----------");
+    	for(String s:str) {
+    		System.out.print(s+" ");
+    	}
+    	System.out.println();
+    	System.out.println("------------");
+    	
+    	for(boolean check1:check) {
+    		System.out.print(check1);
+    	}
+    	System.out.println();
     	
     }
 }
