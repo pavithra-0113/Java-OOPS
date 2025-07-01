@@ -47,7 +47,7 @@ public class ArrayDemo {
     	System.out.println("------------");
     	
     	for(boolean check1:check) {
-    		System.out.print(check1);
+    		System.out.print(check1+" ");
     	}
     	System.out.println();
     	
